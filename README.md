@@ -18,9 +18,14 @@ DELETE /api/v1/products/{id}
 
 
 # Setup
-1. install docker
+1. install repo
 ```sh
-docker-compse up -d
+$ docker-compse up -d
+
+$ docker exec -it ap-product-service sh -c "composer install"
+
+$ docker exec -it ap-product-service sh -c "php artisan migrate"
+
 ```
 
 2.Connect database
