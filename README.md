@@ -5,6 +5,9 @@
 Get product list
 GET /api/v1/products
 
+Get product by id
+GET /api/v1/products/{id}
+
 Add new product
 POST /api/v1/products
 

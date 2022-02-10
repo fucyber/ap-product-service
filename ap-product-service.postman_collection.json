@@ -45,6 +45,37 @@
 			"response": []
 		},
 		{
+			"name": "5.Get product by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:9011/api/v1/products/:id",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "9011",
+					"path": [
+						"api",
+						"v1",
+						"products",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "2.Add new product",
 			"request": {
 				"method": "POST",
@@ -222,7 +253,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": null
+							"value": "1"
 						}
 					]
 				}
